@@ -1,0 +1,30 @@
+/* styling by using tags */
+body{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+/* styling by using id */
+#lib-header{
+    color: gray;
+}
+
+/* styling by using class */
+.para{
+    color: lightblue;
+}
+
+.para-typography{
+    color: purple;
+}
+
+.die{
+    color: black;
+}
