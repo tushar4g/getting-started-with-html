@@ -2,10 +2,13 @@
 
 :root{
     --primary-color: #10B981;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body{
     font-family: 'EB Garamond', serif;
+
 }
 
 hr{
@@ -62,7 +65,7 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.nav-brand{
     font-weight: bold;
 }
 
@@ -76,4 +79,37 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    font-size: 2rem;
+    color: gray;
+    
+}
+
+/** section **/
+
+.section{
+    padding: 2rem;
+}
+
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
