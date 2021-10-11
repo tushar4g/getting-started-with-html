@@ -8,7 +8,7 @@
 
 body{
     font-family: 'EB Garamond', serif;
-
+    margin: 0px;
 }
 
 hr{
@@ -95,6 +95,7 @@ hr{
 
 .hero .hero-heading{
     font-size: 2rem;
+    text-align: center;
     color: gray;
     
 }
@@ -112,4 +113,23 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
