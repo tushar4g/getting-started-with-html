@@ -20,6 +20,12 @@ hr{
     margin: 2rem 0rem;
 }
 
+/** spaces **/
+
+.margin-md{
+    margin: 2rem;
+}
+
 /** container **/
 .container{
     padding: 0rem 1rem;
@@ -90,6 +96,7 @@ hr{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
