@@ -16,6 +16,15 @@ body{
     letter-spacing: .1px;
 }
 
+
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh - 102px - 171px);
+}
+
+
 hr{
     margin: 2rem 0rem;
 }
@@ -137,6 +146,8 @@ hr{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    
+    
 }
 
 .footer .link{
@@ -146,8 +157,14 @@ hr{
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+    
 }
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer .footer-para{
+    margin-top: 2rem;
+    color: black;
 }
