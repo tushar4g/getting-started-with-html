@@ -24,6 +24,22 @@ main{
     min-height: calc(100vh - 102px - 171px);
 }
 
+.column{
+    float: left;
+}
+
+.left{
+    width: 30%;
+}
+
+.middle{
+    width: 40%;
+}
+
+.right{
+    width: 30%;
+}
+
 
 hr{
     margin: 2rem 0rem;
