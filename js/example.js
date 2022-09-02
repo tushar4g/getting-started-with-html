@@ -1,3 +1,4 @@
+console.log("This is a practice file example.js");
 // var str;
 // var age=25
 // var str="varVariable";
@@ -30,13 +31,61 @@
 // // alert("this is alert message")
 
 // **window object :----
-let win=window;
-console.log(win)
-win=window.document;
-console.log(win)
-win=window.innerHeight;
-console.log(win)
-win= window.innerWidth;
-console.log(win)
-win=window.document.location.toString();
-console.log(win)
+// let win=window;
+// console.log(win)
+// win=window.document;
+// console.log(win)
+// win=window.innerHeight;
+// console.log(win)
+// win= window.innerWidth;
+// console.log(win)
+// win=window.document.location.toString( );
+// console.log(win)
+
+/* 1. single element selector
+
+let element= document.getElementById("brand");
+// element=element.className;
+// element=element.childNodes;
+// element=element.parentNode;
+// element=element.children;
+// element.style.color="yellow";
+// element.innerText=`tushar is a developer`;
+// element.innerHTML=`<h1 style="color:yellow">tushar</h1>`;
+console.log(element)
+
+let sel=document.querySelector("#navContainer");
+sel=document.querySelector(".container");
+sel=document.querySelector("a");
+sel.style.color="yellow";
+console.log(sel);
+*/
+
+/*  Multi element selector
+// let elems= document.getElementsByClassName("link");
+// // console.log(elems);
+// Array.from(elems).forEach(element =>{
+//     console.log(element);
+//     element.style.color = "yellow";
+// })
+*/
+
+
+// let elems=document.getElementsByClassName("container");
+// // console.log(elems[0].getElementsByClassName("nav-brand"));
+// elems= document.getElementsByTagName("div");
+// console.log(elems);
+
+let aLink = document.createElement("a");
+aLink.setAttribute("href","https://www.w3school.com");
+
+let head = document.createElement("h1");
+let txt=document.createTextNode("Go to code");
+head.append(txt)
+
+aLink.append(head)
+
+let sec=document.querySelector(".tecdiv");
+sec.appendChild(aLink);
+console.log(sec) 
+
