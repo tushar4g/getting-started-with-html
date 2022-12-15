@@ -76,16 +76,33 @@ console.log(sel);
 // elems= document.getElementsByTagName("div");
 // console.log(elems);
 
-let aLink = document.createElement("a");
-aLink.setAttribute("href","https://www.w3school.com");
+// ------CREATE ELEMENT APPEND INTO DOM:-------
+// let aLink = document.createElement("a");
+// aLink.setAttribute("href","https://www.w3school.com");
 
-let head = document.createElement("h1");
-let txt=document.createTextNode("Go to code");
-head.append(txt)
+// let head = document.createElement("h1");
+// let txt=document.createTextNode("Go to code");
+// head.append(txt)
 
-aLink.append(head)
+// aLink.append(head)
 
-let sec=document.querySelector(".tecdiv");
-sec.appendChild(aLink);
-console.log(sec) 
+// let sec=document.querySelector(".tecdiv");
+// sec.appendChild(aLink);
+// console.log(sec) 
+
+// /*  ------EVENTLISTENER------
+document.getElementById("tech-head").addEventListener("mouseover", function(e){
+    let varr
+    console.log("You clicked the technologies");
+    // varr= e.target;
+    // varr= e.target.classList;
+    // varr= e.target.className;
+    // varr= Array.from(e.target.classList);
+    // varr= e.offsetX;
+    // varr= e.offsetY;
+    // varr= e.clientX;
+    console.log(varr);
+})
+
+
 
